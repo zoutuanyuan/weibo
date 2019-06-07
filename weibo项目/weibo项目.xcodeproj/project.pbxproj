@@ -15,6 +15,7 @@
 		E3B69ABA22AB2E90004D4277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B69AB922AB2E90004D4277 /* main.m */; };
 		E3B69AC422AB2E90004D4277 /* weibo__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B69AC322AB2E90004D4277 /* weibo__Tests.m */; };
 		E3B69ACF22AB2E90004D4277 /* weibo__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B69ACE22AB2E90004D4277 /* weibo__UITests.m */; };
+		E3B69ADE22AB31B4004D4277 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B69ADD22AB31B4004D4277 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E3B69ACA22AB2E90004D4277 /* weibo项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weibo项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B69ACE22AB2E90004D4277 /* weibo__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weibo__UITests.m; sourceTree = "<group>"; };
 		E3B69AD022AB2E90004D4277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B69ADC22AB31B4004D4277 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E3B69ADD22AB31B4004D4277 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				E3B69AAA22AB2E8F004D4277 /* AppDelegate.h */,
 				E3B69AAB22AB2E8F004D4277 /* AppDelegate.m */,
+				E3B69ADC22AB31B4004D4277 /* Dog.h */,
+				E3B69ADD22AB31B4004D4277 /* Dog.m */,
 				E3B69AAD22AB2E8F004D4277 /* ViewController.h */,
 				E3B69AAE22AB2E8F004D4277 /* ViewController.m */,
 				E3B69AB022AB2E8F004D4277 /* Main.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				E3B69AAF22AB2E8F004D4277 /* ViewController.m in Sources */,
 				E3B69ABA22AB2E90004D4277 /* main.m in Sources */,
+				E3B69ADE22AB31B4004D4277 /* Dog.m in Sources */,
 				E3B69AAC22AB2E8F004D4277 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
